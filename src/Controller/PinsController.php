@@ -8,8 +8,6 @@ use App\Repository\PinRepository;
 use ContainerRc3kAf4\getForm_ChoiceListFactory_CachedService;
 use Doctrine\ORM\EntityManagerInterface;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
-use Symfony\Component\Form\Extension\Core\Type\TextareaType;
-use Symfony\Component\Form\Extension\Core\Type\TextType;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
@@ -97,7 +95,7 @@ class PinsController extends AbstractController
     }
 
     /**
-     * @Route("/pins/{id<[0-9]+>}/delete", name="app_pins_delete", methods="DELETE")
+     * @Route("/pins/{id<[0-9]+>}", name="app_pins_delete", methods="DELETE")
      * @param Request $request
      * @param Pin $pin
      * @param EntityManagerInterface $em
