@@ -11,7 +11,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff9937c0-2a09-4402-ae77-515a390c4ace" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/templates/layouts/partials/_footer.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/layouts/partials/_nav.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/twig.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/twig.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Entity/Pin.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Pin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/layouts/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/layouts/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/pins/_form.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/pins/_form.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/pins/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/pins/show.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +48,10 @@
             <RecentBranchesForRepo>
               <option name="branches">
                 <list>
+                  <RecentBranch>
+                    <option name="branchName" value="optimisation" />
+                    <option name="lastUsedInstant" value="1596491403" />
+                  </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="creation" />
                     <option name="lastUsedInstant" value="1596453220" />
@@ -205,7 +216,7 @@
       <updated>1596444026692</updated>
       <workItem from="1596444027900" duration="22093000" />
       <workItem from="1596488827159" duration="344000" />
-      <workItem from="1596489200314" duration="1736000" />
+      <workItem from="1596489200314" duration="5804000" />
     </task>
     <servers />
   </component>
