@@ -1,6 +1,6 @@
     @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
     @import "shared/variables";
-    @import "~bootstrap/scss/bootstrap";
+    @import "~bootstrap";
 
 
     html, body {
@@ -19,4 +19,14 @@
     }
     .alert-error{
         background-color: red;
+    }
+    .vich-image.form-check{
+        @extend .mt-3;
+    }
+
+    .vich-image img{
+        @extend .mb-2;
+        @extend .rounded;
+        @extend .shadow;
+        @extend .img-thumbnail;
     }
