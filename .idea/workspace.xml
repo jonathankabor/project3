@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -11,21 +14,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff9937c0-2a09-4402-ae77-515a390c4ace" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/scss/app.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/assets.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/prod/webpack_encore.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/test/webpack_encore.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/webpack_encore.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/project3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/project3.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/shared/_variables.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/pins/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/pins/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/layouts/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/layouts/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/pins/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/pins/show.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -48,6 +64,10 @@
             <RecentBranchesForRepo>
               <option name="branches">
                 <list>
+                  <RecentBranch>
+                    <option name="branchName" value="optimisation" />
+                    <option name="lastUsedInstant" value="1596491403" />
+                  </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="creation" />
                     <option name="lastUsedInstant" value="1596453220" />
@@ -173,6 +193,7 @@
       <path value="$PROJECT_DIR$/vendor/twig/string-extra" />
       <path value="$PROJECT_DIR$/vendor/knplabs/knp-time-bundle" />
       <path value="$PROJECT_DIR$/vendor/symfony/templating" />
+      <path value="$PROJECT_DIR$/vendor/symfony/webpack-encore-bundle" />
     </include_path>
   </component>
   <component name="ProjectId" id="1fa6ntk1CRC6dFJLwVAeD0kcEs2" />
@@ -187,8 +208,8 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/vendor/symfony/web-profiler-bundle/Resources/views/Profiler/toolbar_js.html.twig&#10;C:/wamp64/www/project3/public/build/app.css" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -196,6 +217,11 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\project3\templates\layouts" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -205,7 +231,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1596444026692</updated>
-      <workItem from="1596444027900" duration="21517000" />
+      <workItem from="1596444027900" duration="22093000" />
+      <workItem from="1596488827159" duration="344000" />
+      <workItem from="1596489200314" duration="12234000" />
+      <workItem from="1596501584676" duration="748000" />
     </task>
     <servers />
   </component>
@@ -222,14 +251,39 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="304" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1596462958865">
+    <state x="373" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1596501184378">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="304" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1596462958865" />
+    <state x="373" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1596501184378" />
+    <state x="312" y="142" key="EditFileWatcherDialog" timestamp="1596498891727">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="312" y="142" key="EditFileWatcherDialog/0.0.1366.728@0.0.1366.728" timestamp="1596498891727" />
+    <state width="1211" height="176" key="GridCell.Tab.0.bottom" timestamp="1596501928952">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1211" height="176" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1596501928952" />
+    <state width="1211" height="176" key="GridCell.Tab.0.center" timestamp="1596501928944">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1211" height="176" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1596501928944" />
+    <state width="1211" height="176" key="GridCell.Tab.0.left" timestamp="1596501928944">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1211" height="176" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1596501928944" />
+    <state width="1211" height="176" key="GridCell.Tab.0.right" timestamp="1596501928944">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1211" height="176" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1596501928944" />
+    <state x="304" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1596498781884">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="304" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1596498781884" />
   </component>
 </project>
