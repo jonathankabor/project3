@@ -10,9 +10,9 @@
             {% for pin in row %}
                 <div class="col-md-4">
                     <article class="pin bg-white rounded shadow">
-                            <div class="mw-100 overflow-hidden">
+                            <div class="mw-100 rounded-top overflow-hidden">
                                 <a href="{{ path('app_pins_show', {id: pin.id}) }}">
-                                <img  class="w-100 rounded-top" src="{{ ( pin.imageName ? vich_uploader_asset(pin)
+                                <img  class="w-100 " src="{{ ( pin.imageName ? vich_uploader_asset(pin)
                                 :asset('build/images/index1.jpg')) | imagine_filter('squared_thumbnail_medium') }}" alt="{{ pin.title }}" />
                                 </a>
                             </div>

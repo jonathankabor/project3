@@ -6,14 +6,14 @@
             <div class="row">
                 <div class="col-md-6 mx-auto">
                     <article class="pin bg-white rounded shadow">
-                        <div class="mw-100 overflow-hidden">
+                        <div class="mw-100 rounded-top overflow-hidden">
                             <a href="{{ path('app_pins_show', {id: pin.id}) }}">
-                                <img  class="w-100 rounded-top" src="{{ ( pin.imageName ? vich_uploader_asset(pin)
+                                <img  class="w-100 " src="{{ ( pin.imageName ? vich_uploader_asset(pin)
                                 :asset('build/images/index1.jpg')) | imagine_filter('squared_thumbnail_medium') }}" alt="{{ pin.title }}" />
                             </a>
                         </div>
-                        <h2 class="h5 pl-3 pt-3"><a href="{{ path('app_pins_show', {id: pin.id}) }}"
-                                                    class="text-secondary text-decoration-none">{{ pin.title }}</a></h2>
+                        <h1 class="h5 pl-3 pt-3"><a href="{{ path('app_pins_show', {id: pin.id}) }}"
+                                                    class="text-secondary text-decoration-none">{{ pin.title }}</a></h1>
                         <p class=" pl-3 pb-3 text-muted">
                             <small>
                                 <time datetime="{{ pin.createdAt|date('Y-m-d H:i:s') }}">Submitted {{ pin.createdAt|ago }}</time>
