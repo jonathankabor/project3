@@ -1,0 +1,39 @@
+    @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+    @import "shared/variables";
+    @import "~bootstrap";
+
+
+    html, body {
+        font-family: 'Montserrat', sans-serif;
+    }
+    .alert{
+        padding: 10px;
+        color: white;
+        text-align: center;
+        margin: 0;
+        border: none;
+        border-radius: 0;
+    }
+    .alert-success{
+        background-color: green;
+    }
+    .alert-error{
+        background-color: red;
+    }
+    .vich-image.form-check{
+        @extend .mt-3;
+    }
+
+    .vich-image img{
+        @extend .mb-2;
+        @extend .rounded;
+        @extend .shadow;
+        @extend .img-thumbnail;
+    }
+
+    .pin:hover {
+        img{
+            transition: transform 0.3s ease-out;
+            transform: scale(1.075);
+        }
+    }
