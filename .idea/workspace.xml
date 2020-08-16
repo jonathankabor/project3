@@ -14,10 +14,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff9937c0-2a09-4402-ae77-515a390c4ace" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/uploads/pins/index1-5f29ebf54d559069046555.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/pins/index2-5f29f47897b35812917827.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/pins/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/pins/index.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/pins/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/pins/show.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -209,7 +206,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="$PROJECT_DIR$/vendor/symfony/web-profiler-bundle/Resources/views/Profiler/toolbar_js.html.twig&#10;C:/wamp64/www/project3/public/build/app.css" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -239,7 +236,9 @@
       <workItem from="1596488827159" duration="344000" />
       <workItem from="1596489200314" duration="12234000" />
       <workItem from="1596501584676" duration="1202000" />
-      <workItem from="1596532165568" duration="27774000" />
+      <workItem from="1596532165568" duration="29207000" />
+      <workItem from="1597597983914" duration="52000" />
+      <workItem from="1597598072653" duration="1080000" />
     </task>
     <servers />
   </component>
@@ -274,6 +273,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="312" y="142" key="EditFileWatcherDialog/0.0.1366.728@0.0.1366.728" timestamp="1596498891727" />
+    <state x="423" y="119" key="FileChooserDialogImpl" timestamp="1596614852688">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="423" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1596614852688" />
     <state width="1211" height="176" key="GridCell.Tab.0.bottom" timestamp="1596502800101">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
