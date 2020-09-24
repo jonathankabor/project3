@@ -14,6 +14,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff9937c0-2a09-4402-ae77-515a390c4ace" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Entity/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/User.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/registration/register.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/registration/register.html.twig" afterDir="false" />
     </list>
@@ -246,7 +247,7 @@
       <workItem from="1598002781627" duration="304000" />
       <workItem from="1600673885777" duration="117000" />
       <workItem from="1600674283126" duration="1818000" />
-      <workItem from="1600676903563" duration="13532000" />
+      <workItem from="1600676903563" duration="13848000" />
     </task>
     <servers />
   </component>
