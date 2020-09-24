@@ -15,9 +15,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ff9937c0-2a09-4402-ae77-515a390c4ace" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/RegistrationController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/RegistrationController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/layouts/partials/_flash_messages.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/layouts/partials/_flash_messages.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/registration/confirmation_email.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/emails/registration/confirmation_email.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/registration/register.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/registration/register.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -249,7 +246,7 @@
       <workItem from="1598002781627" duration="304000" />
       <workItem from="1600673885777" duration="117000" />
       <workItem from="1600674283126" duration="1818000" />
-      <workItem from="1600676903563" duration="12085000" />
+      <workItem from="1600676903563" duration="12839000" />
     </task>
     <servers />
   </component>
